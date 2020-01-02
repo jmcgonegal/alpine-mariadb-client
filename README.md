@@ -19,7 +19,7 @@ spec:
       template:
         spec:
           containers:
-          - name: hello
+          - name: daily-database-backup
             image: jmcgonegal/alpine-mariadb-client
             args:
             - /bin/sh
